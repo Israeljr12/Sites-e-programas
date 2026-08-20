@@ -1,0 +1,28 @@
+<script>
+
+let base1 = Number(prompt("Escolha o valor da sua base menor:"));
+let base2 = Number(prompt('Escolha o valor da sua base maior:'));
+let altura = Number(prompt("Escolha o valor da sua altura:"));
+
+if (base1 > base2) { alert("Sua base menor é maior que sua base maior!!!");
+} else {
+    let area = (base1 + base2) * altura / 2;
+    alert ("Área do trapézio = " + area )
+}
+    
+
+while (base1 > base2) { 
+let base1 = Number(prompt("Escolha o valor da sua base menor:"));
+let base2 = Number(prompt('Escolha o valor da sua base maior:'));
+let altura = Number(prompt("Escolha o valor da sua altura:")); 
+    //a função while neste caso ta fazendo com que caso o usuario erre, 
+    //coloque a base menor maior que a base maior ele repita o código novamente
+   if (base1 < base2) {
+    let area = (base1 + base2) * altura / 2;
+    alert ("Área do trapézio = " + area )
+   }
+}
+
+
+
+</script>
