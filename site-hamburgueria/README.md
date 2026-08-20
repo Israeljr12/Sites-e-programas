@@ -27,7 +27,7 @@ princípios de design e leis da Gestalt.
 
 ## 📷 Prévia
 
-![Tela Inicial](brasa-burguer.png)
+<img src="brasa-burguer.png" width="500">
 
 ## 📌 Status
 
